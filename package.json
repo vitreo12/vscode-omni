@@ -1,0 +1,25 @@
+{
+    "name": "omni",
+    "displayName": "omni",
+    "description": "Language extension for the omni DSL",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "omni",
+            "aliases": ["omni", "omni"],
+            "extensions": [".omni",".oi"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "omni",
+            "scopeName": "source.omni",
+            "path": "./syntaxes/omni.tmLanguage.json"
+        }]
+    }
+}
