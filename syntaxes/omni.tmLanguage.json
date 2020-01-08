@@ -1030,7 +1030,7 @@
 		  },
 		  {
 			"comment": "Invalid and unused keywords.",
-			"match": "(\\b(generic|interface|lambda|out|shared)\\b)",
+			"match": "(\\b(generic|interface|lambda|shared)\\b)",
 			"name": "invalid.illegal.invalid-keyword.omni"
 		  },
 		  {
