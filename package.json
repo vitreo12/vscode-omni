@@ -2,12 +2,28 @@
     "name": "omni",
     "displayName": "omni",
     "description": "Language extension for the omni DSL",
-    "version": "0.0.1",
+    "version": "0.1.0",
+    "publisher": "vitreo12",
+    "author": {
+        "name": "Francesco Cameli",
+        "email": "francesco.cameli95@gmail.com"
+    },
+    "homepage": "https://github.com/vitreo12/vscode-omni/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vitreo12/vscode-omni"
+    },
     "engines": {
         "vscode": "^1.41.0"
     },
     "categories": [
-        "Programming Languages"
+        "Programming Languages",
+        "Linters",
+        "Other"
+    ],
+    "keywords": [
+        "omni",
+        "omni_lang"
     ],
     "contributes": {
         "languages": [{
