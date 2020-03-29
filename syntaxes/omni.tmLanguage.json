@@ -1004,6 +1004,11 @@
 			"name": "support.type.omni"
 		  },
 		  {
+			"commment": "Omni arg1, arg2 ... arg32",
+			"match": "\\b(arg1|arg2|arg3|arg4|arg5|arg6|arg7|arg8|arg9|arg10|arg11|arg12|arg13|arg14|arg15|arg16|arg17|arg18|arg19|arg20|arg21|arg22|arg23|arg24|arg25|arg26|arg27|arg28|arg29|arg30|arg31|arg32)\\b",
+			"name": "support.type.omni"
+		  },
+		  {
 			"commment": "Omni out1, out2 ... out32",
 			"match": "\\b(out1|out2|out3|out4|out5|out6|out7|out8|out9|out10|out11|out12|out13|out14|out15|out16|out17|out18|out19|out20|out21|out22|out23|out24|out25|out26|out27|out28|out29|out30|out31|out32)\\b",
 			"name": "support.type.omni"
