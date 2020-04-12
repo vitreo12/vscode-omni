@@ -1030,32 +1030,22 @@
 		  },
 		  {
 			"comment": "Other keywords.",
-			"match": "(\\b(addr|as|asm|atomic|bind|cast|const|converter|concept|defer|discard|distinct|div|enum|export|from|import|include|let|mod|mixin|object|of|ptr|ref|shl|shr|static|type|using|var|tuple|iterator|macro|func|method|proc|template)\\b)",
+			"match": "(\\b(discard|div|enum|export|from|import|include|let|mod|shl|shr|var|tuple)\\b)",
 			"name": "keyword.other.omni"
 		  },
 		  {
-			"comment": "Invalid and unused keywords.",
-			"match": "(\\b(generic|interface|lambda|shared)\\b)",
-			"name": "invalid.illegal.invalid-keyword.omni"
-		  },
-		  {
 			"comment": "Common functions",
-			"match": "\\b(new|await|assert|echo|defined|declared|newException|countup|countdown|high|low)\\b",
+			"match": "\\b(new)\\b",
 			"name": "keyword.other.common.function.omni"
 		  },
 		  {
 			"comment": "Built-in, concrete types.",
-			"match": "\\b(((uint|int)(8|16|32|64)?)|float(32|64)?|bool|string|auto|cstring|char|byte|tobject|typedesc|stmt|expr|any|untyped|typed)\\b",
+			"match": "\\b(((uint|int)(8|16|32|64)?)|float(32|64)?|signal(32|64)?|sig(32|64)?|bool|string)\\b",
 			"name": "storage.type.concrete.omni"
 		  },
 		  {
-			"comment": "Built-in, generic types.",
-			"match": "\\b(range|array|seq|set|pointer)\\b",
-			"name": "storage.type.generic.omni"
-		  },
-		  {
 			"comment": "Special types.",
-			"match": "\\b(openarray|varargs|void)\\b",
+			"match": "\\b(void)\\b",
 			"name": "storage.type.generic.omni"
 		  },
 		  {
