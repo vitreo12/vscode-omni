@@ -990,7 +990,7 @@
 		  },
 		  {
 			"comment": "Omni keywords BLUE",
-			"match": "\\b(struct|def|ins|outs|init|build|perform|sample)\\b",
+			"match": "\\b(require|struct|def|inputs|outputs|ins|outs|init|initialize|initialise|build|perform|sample)\\b",
 			"name": "keyword.other.omni"
 		  },
 		  {
