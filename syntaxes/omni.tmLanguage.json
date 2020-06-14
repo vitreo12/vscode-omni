@@ -995,7 +995,7 @@
 		  },
 		  {
 			"comment": "Omni keywords GREEN",
-			"match": "\\b(samplerate|sampleRate|sample_rate|bufsize|bufSize|buf_size)\\b",
+			"match": "\\b(samplerate|sampleRate|sample_rate|bufsize|bufSize|buf_size|TWOPI|PI|twopi|twoPi|pi)\\b",
 			"name": "support.type.omni"
 		  },
 		  {
