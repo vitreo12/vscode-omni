@@ -2,7 +2,7 @@
     "name": "omni",
     "displayName": "omni",
     "description": "Language extension for the omni DSL",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "publisher": "vitreo12",
     "author": {
         "name": "Francesco Cameli",
