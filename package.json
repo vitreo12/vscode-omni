@@ -2,14 +2,14 @@
     "name": "omni",
     "displayName": "omni",
     "description": "Language extension for the omni DSL",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "publisher": "vitreo12",
     "author": {
         "name": "Francesco Cameli",
         "email": "francesco.cameli95@gmail.com"
     },
     "homepage": "https://github.com/vitreo12/vscode-omni/blob/master/README.md",
-    "icon": "images/omni_logo_transparent.png",
+    "icon": "images/omni_logo_white.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/vitreo12/vscode-omni"
