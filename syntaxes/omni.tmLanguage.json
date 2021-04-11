@@ -990,7 +990,7 @@
 		  },
 		  {
 			"comment": "Omni keywords BLUE",
-			"match": "\\b(require|struct|def|inputs|outputs|ins|outs|init|initialize|initialise|build|perform|sample|loop|process|chain)\\b",
+			"match": "\\b(use|require|struct|def|inputs|outputs|ins|inputs|params|parameters|buffers|bufs|outs|outputs|init|initialize|initialise|build|perform|sample|process|chain)\\b",
 			"name": "keyword.other.omni"
 		  },
 		  {
@@ -999,13 +999,13 @@
 			"name": "support.type.omni"
 		  },
 		  {
-			"commment": "Omni in1, in2 ... in32",
-			"match": "\\b(in1|in2|in3|in4|in5|in6|in7|in8|in9|in10|in11|in12|in13|in14|in15|in16|in17|in18|in19|in20|in21|in22|in23|in24|in25|in26|in27|in28|in29|in30|in31|in32)\\b",
-			"name": "support.type.omni"
+			"comment": "Omni keywords PURPLE",
+			"match": "\\b(loop)\\b",
+			"name": "keyword.control.omni"
 		  },
 		  {
-			"commment": "Omni arg1, arg2 ... arg32",
-			"match": "\\b(arg1|arg2|arg3|arg4|arg5|arg6|arg7|arg8|arg9|arg10|arg11|arg12|arg13|arg14|arg15|arg16|arg17|arg18|arg19|arg20|arg21|arg22|arg23|arg24|arg25|arg26|arg27|arg28|arg29|arg30|arg31|arg32)\\b",
+			"commment": "Omni in1, in2 ... in32",
+			"match": "\\b(in1|in2|in3|in4|in5|in6|in7|in8|in9|in10|in11|in12|in13|in14|in15|in16|in17|in18|in19|in20|in21|in22|in23|in24|in25|in26|in27|in28|in29|in30|in31|in32)\\b",
 			"name": "support.type.omni"
 		  },
 		  {
